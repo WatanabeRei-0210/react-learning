@@ -9,4 +9,7 @@ export class CreateListenerDto {
 
   @ApiProperty({ description: '説明', example: 'ロボット' })
   description: string;
+
+  @ApiProperty({ description: '画像URL', example: 'https://example.com' })
+  imageUrl: string;
 }

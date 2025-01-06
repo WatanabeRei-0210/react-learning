@@ -15,6 +15,9 @@ export class Listener {
   description: string;
 
   @Column()
+  imageUrl: string;
+
+  @Column()
   createdAt: Date;
 
   @Column()
